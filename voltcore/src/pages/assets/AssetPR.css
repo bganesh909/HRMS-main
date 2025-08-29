@@ -1,0 +1,47 @@
+.asset-pr-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .asset-pr-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .asset-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+  }
+  
+  
+  .approve-btn,
+  .reject-btn {
+    padding: 6px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .approve-btn {
+    color: #218838;
+    border-color: #218838;
+  }
+  
+  .reject-btn {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .approve-btn:hover {
+    background-color:transparent;
+  }
+  
+  .reject-btn:hover {
+    background-color:transparent;
+  }
+  

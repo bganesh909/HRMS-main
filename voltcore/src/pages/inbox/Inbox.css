@@ -1,0 +1,124 @@
+/* Ensure full usage of space excluding sidebar and topbar */
+.inbox-full-container {
+  margin-left: 240px; /* adjust according to sidebar width */
+  margin-top: 60px; /* adjust based on topbar height */
+  height: calc(100vh - 60px);
+  padding: 0;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inbox-form-wrapper {
+  width: 100%;
+  max-width: 700px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.inbox-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inbox-form label {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+}
+
+.inbox-form input,
+.inbox-form textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.inbox-submit-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.inbox-submit-button:hover {
+  background-color: #0056b3;
+}
+.notification-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.notification-item {
+  background-color: #f4f6fc;
+  border-left: 4px solid #007bff;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.notification-item strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.notification-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.notification-time {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+.announcement-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.announcement-item {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.announcement-item strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.announcement-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.announcement-date {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #555;
+}

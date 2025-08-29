@@ -1,0 +1,27 @@
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-task-form input,
+.add-task-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.add-task-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #218838;
+}

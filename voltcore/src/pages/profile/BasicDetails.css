@@ -1,0 +1,155 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.employee-profile {
+  background-color: #ffffff;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: var(--header-height) 0px 0px var(--sidenav-width);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.name-and-upload {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.employee-name {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.upload-btns {
+  background-color: #c2d8ec;
+  color: rgb(29, 20, 20);
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* margin-left: -20px; */
+}
+
+.upload-btn:hover {
+  background-color: #45a049;
+}
+
+.profile-details {
+  margin-top: 30px;
+}
+
+.personal-info-header {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.info-grid div {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-grid label {
+  font-weight: bold;
+  color: #555;
+}
+
+.info-grid input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.info-grid input:focus {
+  border-color: #4CAF50;
+}
+
+.save-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-btn {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.save-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

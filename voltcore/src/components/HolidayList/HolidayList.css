@@ -1,0 +1,52 @@
+.table-container {
+ max-height: 300px;
+  overflow-y: auto; /* Scroll vertically */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.scrollable-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.scrollable-table th,
+.scrollable-table td {
+  padding: 1em;
+
+}
+
+.scrollable-table thead th {
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* Attendance Css */
+.att-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 1em;
+  margin-left: 200px;
+  gap:1em
+}
+.att-s2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap:1em;
+  /* flex-wrap: wrap; */
+}
+.att-s2 > div{
+  flex:0 0 50%;
+}
+@media screen and (max-width:768px) {
+  .att-s2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .att-s2 > div{
+    flex:0 0 100%;
+  }
+}

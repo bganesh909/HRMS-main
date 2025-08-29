@@ -1,0 +1,28 @@
+.tree-container {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  margin-left: 240px;
+  overflow: hidden; /* disables scroll */
+}
+
+.tree-heading {
+  text-align: center;
+  margin: 20px 0 30px;
+  color: #333;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  pointer-events: none;
+  display: none;
+  z-index: 10;
+}

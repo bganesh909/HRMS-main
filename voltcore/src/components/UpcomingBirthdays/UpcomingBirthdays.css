@@ -1,0 +1,50 @@
+.UBday_content-wrapper > h2 {
+    font-size:1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.UBday_content-wrapper {
+    height: 100%;
+}
+
+.UBday_main-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.UBday_bday-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding-bottom: 5px;
+}
+
+.UBday_person-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+}
+
+.UBday_person-bdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UBday_person-name > p {
+    color: #228be6;
+}
+
+.UBday_person-role >p {
+    font-size: 0.8em;
+}
+
+.UBday_person-bdate > p {
+    color: #e64980;
+    font-size: 0.9em;
+}

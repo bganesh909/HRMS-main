@@ -1,0 +1,202 @@
+.category-type-layout {
+    display: flex;
+    height: 100%;
+  }
+  
+  .category-sidebar {
+    width: 250px;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+  }
+  
+  .category-sidebar .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-add {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+  
+  .category-list {
+    margin-top: 10px;
+  }
+  
+  .category-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .category-item.selected {
+    background-color: #e6eaff;
+    font-weight: bold;
+  }
+  
+  .category-details-panel {
+    flex: 1;
+    padding: 1rem;
+    width:75%;
+  }
+  
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status-tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: inline-block;
+  }
+  
+  .status-tag.active {
+    background-color: #e0fbe2;
+    color: #2e7d32;
+  }
+  
+  .status-tag.inactive {
+    background-color: #fdecea;
+    color: #c62828;
+  }
+  
+  .warning-icon {
+    color: red;
+    margin-left: 6px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left:25px;
+  }
+  .asset-card-container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .asset-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+    
+  .status-tag {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-tag.active {
+    background-color: #d4f4e1;
+    color: #1a7f37;
+  }
+  
+  .status-tag.inactive {
+    background-color: #fddede;
+    color: #b10000;
+  }
+  
+  .warning-icon {
+    color: #d9534f;
+    margin-left: 6px;
+    font-weight: bold;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .asset-table td:last-child {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter-container input,
+  .search-filter-container select {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    
+  .status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .status.available {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .status.assigned {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .status.repair {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  
+  .status.retired {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .status.lost {
+    background-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .asset-card-container tbody tr:nth-child(even) {
+    background-color: #f4f6f8;
+  }
+  
+  .asset-card-container thead {
+    font-size: 0.9em;
+  }
+  
+  

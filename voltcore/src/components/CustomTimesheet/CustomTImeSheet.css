@@ -1,0 +1,35 @@
+.atten-sheet {
+  width: 100%;
+}
+
+.atten-sheet tbody tr:nth-child(4n +3) {
+  background-color: #f4f6f8;
+}
+
+.atten-sheet tbody tr:nth-child(4n +4) {
+  background-color: #f4f6f8;
+}
+
+.atten-sheet .d-pick {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  max-width: 50%;
+}
+.collapsible-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease-in-out;
+  display: flex;
+  gap:1em
+  
+  /* width: 100%; */
+}
+
+.collapsible-container.open {
+  max-height: 500px; /* or any reasonable max height */
+   display: flex; 
+   flex-direction: column;
+   max-height: 300px;
+   overflow: scroll;
+}

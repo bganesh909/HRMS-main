@@ -1,0 +1,116 @@
+.sidebar {
+  width: 200px;
+  background-color: #133c55;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-scroll {
+  overflow-y: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Custom scrollbar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background-color: #566c84;
+  border-radius: 3px;
+}
+.sidebar-scroll {
+  scrollbar-width: thin;
+}
+
+/* Menu button */
+.icon-button {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #e7ecef;
+  padding: 12px ;
+  width: 100%;
+  cursor: pointer;
+  font-size: 17px;
+}
+.navbtns{
+  display: flex;
+  gap:1em;
+  align-items: center;
+}
+
+.navbtns span {
+  margin: 0 !important;
+}
+
+.navbtns svg {
+  width: 25px;
+}
+.icon-button span {
+  margin-top: 8px;
+  /* font-size: 14px; */
+  text-align: center;
+
+}
+
+.icon-button:hover {
+  background-color: #004e64;
+}
+
+/* Submenu style */
+
+/* Base styles */
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.submenu.open {
+  max-height: 500px; /* Adjust based on submenu content */
+  opacity: 1;
+  width: 100%;
+}
+
+/* Optional: Smooth links */
+.submenu__content {
+  padding: 10px;
+  text-align: center;
+}
+
+.submenu__content a {
+  display: block;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+
+.submenu-link {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.submenu-link:hover {
+  background-color: #004e64;
+}
+
+/* Sticky Logout */
+.sidebar-logout {
+  padding: 20px 0;
+  border-top: 1px solid #3d566e;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.empps_content-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.empps_content-wrapper > header {
+    width: 100%;
+}
+
+.empps_content-wrapper h2 {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.empps_filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+
+    width: 100%;
+}
+
+.empps_filters > select {
+    width: 70px;
+}
+
+.empps_table-container {
+    width: 100%;
+}
+
+.empps_download-cell {
+    display:flex;
+    justify-content: center;
+}
+

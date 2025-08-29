@@ -1,0 +1,44 @@
+.management-container {
+  padding: 70px 1em;
+  margin-left: 200px;
+  gap: 1em;
+}
+.project-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.team-detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+.team-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgb(6 4 4 / 14%);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease;
+  gap:5px
+}
+.team-meta {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  justify-content: space-between;
+}
+
+.team-card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+.team-actions button{
+  padding:3px;
+  color: green;
+  border: none;
+}

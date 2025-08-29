@@ -1,0 +1,88 @@
+.hrps_content-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hrps_content-wrapper > header {
+    width: 100%;
+}
+
+.hrps_content-wrapper h2 {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.hrps_template-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.hrps_upload {
+    width: 100%;
+}
+
+.hrps_upload form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.hrps_pay-period, .hrps_file-upload, .hrps_file-submit {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hrps_month-year {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.hrps_upload select {
+    width: fit-content;
+    min-width:100px;
+    text-align: center;
+}
+
+.hrps_upload input {
+    width: fit-content;
+}
+
+.hrps_file-submit > button {
+    background-color: #427aa1;
+    color: white;
+    min-width: 100px;
+    width: 100%;
+}
+
+.hrps_file-submit > button:hover {
+    background-color: #00406D;
+    cursor: pointer;
+}
+
+.hrps_history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hrps_history > header {
+    width: 100%;
+}
+
+.hrps_history th,
+.hrps_history td {
+    padding: 20px;
+}

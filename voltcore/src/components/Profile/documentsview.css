@@ -1,0 +1,48 @@
+.employee-profile {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.documents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
+}
+
+.document-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.2s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.document-card h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.view-link {
+  color: #2a7ae2;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.view-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

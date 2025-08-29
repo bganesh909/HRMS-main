@@ -1,0 +1,62 @@
+/* UploadDocument.css */
+
+
+
+.employee-profile h2 {
+  font-size: 24px;
+  margin-bottom: 32px;
+  color: #1a202c;
+  border-left: 5px solid #3182ce;
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.employee-profile label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.employee-profile select,
+.employee-profile input[type="file"] {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 28px;
+  border: 1px solid #cbd5e0;
+  border-radius: 10px;
+  background-color: #edf2f7;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.employee-profile select:focus,
+.employee-profile input[type="file"]:focus {
+  outline: none;
+  border-color: #3182ce;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+
+.employee-profile button {
+  width: 200px;
+  text-align: center;
+  padding: 14px;
+  font-size: 16px;
+  background: linear-gradient(to right, #3182ce, #2b6cb0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.employee-profile button:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+.employee-profile button:hover:not(:disabled) {
+  background: linear-gradient(to right, #2c5282, #2b6cb0);
+}

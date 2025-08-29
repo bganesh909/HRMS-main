@@ -1,0 +1,178 @@
+/* Main container adjusted to fit below topbar and beside sidebar */
+.attendance-history-container {
+  margin-left: 240px;
+  margin-top: 70px;
+  padding: 1.5rem 2rem;
+  background-color: #f5f7fa;
+  min-height: calc(100vh - 70px);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Filters and summary layout row */
+.attendance-topbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: start;
+}
+
+.date-filter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.date-filter-box label {
+  font-size: 13px;
+  color: #555;
+}
+
+.date-filter-box input,
+.date-filter-box select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+}
+
+.summary-card {
+  background: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summary-card h4 {
+  font-size: 13px;
+  margin-bottom: 0.3rem;
+  color: #666;
+}
+
+.summary-card p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.attendance-kpi-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.kpi-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.kpi-card h3 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.kpi-card p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.attendance-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chart-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  min-height: 340px; /* Ensure charts have enough vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chart-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: #444;
+  text-align: center;
+}
+
+.attendance-table thead th,
+.attendance-table tbody td {
+  padding: 10px 0;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  padding: 0.5rem 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+  background-color: #c7d2fe;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-size: 14px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .attendance-history-container {
+    margin-left: 0;
+    margin-top: 60px;
+    padding: 1rem;
+  }
+
+  .attendance-topbar {
+    grid-template-columns: 1fr;
+  }
+
+  .attendance-kpi-cards,
+  .attendance-charts {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-cards {
+    justify-content: flex-start;
+  }
+}

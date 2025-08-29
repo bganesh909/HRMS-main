@@ -1,0 +1,50 @@
+.clockinout_content-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 100%;
+}
+
+.clockinout_duration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:50%;
+}
+
+.clockinout_big-num {
+    font-size:xx-large;
+}
+
+.clockinout_subtext {
+    font-size: 0.7em;
+}
+
+.clockinout_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.clockinout_button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    width: 100%;
+    color: white;
+}
+
+.clockinout_clockin-button {
+    background-color: #099268;
+}
+
+.clockinout_clockout-button {
+    background-color: #ff8787;
+}

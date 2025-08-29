@@ -1,0 +1,127 @@
+.tm_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tm_header > h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #333;
+}
+
+.tm_content-wrapper tbody td > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.tm_button {
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.tm_create-button {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+.tm_action-button {
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Modal styles */
+.tm_modal-content {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  background-color: white;
+}
+
+.tm_modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+/* Form styles */
+.tm_form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.tm_form-input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.tm_form-checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tm_form-checkbox-container > input {
+    width: 5% !important;
+}
+.tm_form-checkbox-container > label {
+    margin-bottom: 3px !important;
+}
+
+.tm_modal-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.7rem;
+}
+
+.tm_employee-list {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.tm_employee-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid #f0f0f0;
+}

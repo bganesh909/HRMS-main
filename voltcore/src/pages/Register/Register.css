@@ -1,0 +1,87 @@
+.regis-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Fixed header at top */
+  /* header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+   */
+  /* Register content below the header */
+  .register-rest {
+    margin-top: 80px; /* adjust based on your header height */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form styling */
+  .reges-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label and Input styling */
+  .reges-form label {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .reges-form input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .button-50 {
+    border: 1px solid black !important;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100px;
+    align-self: center;
+  }
+  
+  .button-50:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .reges-form {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reges-form {
+      padding: 1rem;
+    }
+  
+    .register-rest {
+      padding: 1rem;
+    }
+  
+    .reges-form input {
+      font-size: 0.95rem;
+    }
+  }

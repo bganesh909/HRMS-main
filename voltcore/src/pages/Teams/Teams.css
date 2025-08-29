@@ -1,0 +1,58 @@
+/* Full wrapper for My Team content */
+.my-team-wrapper {
+  height: calc(100vh - 64px); /* subtract topbar height */
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f4f6f8;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* The actual card inside */
+.my-team-card {
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Form styling */
+.my-team-card form label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.my-team-card input,
+.my-team-card textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.my-team-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.my-team-card button:hover {
+  background-color: #0056b3;
+}
+
+.my-team-display p {
+  margin: 12px 0;
+  font-size: 16px;
+}

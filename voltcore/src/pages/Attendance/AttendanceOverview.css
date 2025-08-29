@@ -1,0 +1,124 @@
+.att-ov-content-wrapper > header > h2 {
+    font-size: 1.6em;
+    text-align: left;
+}
+
+.att-ov-content-wrapper > header {
+    width: 100%;
+}
+
+.att-ov-stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.att-ov-stats-container > * {
+    min-width: 200px;
+    flex: 1 1 200px;
+}
+
+.att-ov-stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.att-ov-stat-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.att-ov-stat-header p {
+    font-weight: 500;
+}
+
+.att-ov-stat-header svg {
+    color:#3486BD;
+    font-size: 1.3em;
+}
+
+.att-ov-stat-value p {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.att-ov-clockinout-table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.att-ov-clockinout-table-container > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.att-ov-clockinout-table-container > header > svg {
+    color: #3486BD;
+}
+
+.att-ov-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.att-ov-filters > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.att-ov-search-query > input {
+    min-width: 300px !important;
+}
+
+.att-ov-exp-table-container { 
+    padding: 10px 15px;
+    margin: 0px;
+    border-top: 1px solid #dee2e6;
+}
+
+.att-ov-exp-table-container > table {
+    width: 100%;
+    font-size: 0.9em;
+    border-collapse: collapse;
+}
+
+.att-ov-exp-table-container thead tr {
+    background-color: #C1DDEF !important;
+}
+
+.att-ov-exp-table-container thead th {
+    padding: 5px;
+    color: #4C4C4C;
+}
+
+.att-ov-exp-table-container tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.att-ov-exp-table-container tbody td {
+    padding: 5px;
+}
+
+
+
